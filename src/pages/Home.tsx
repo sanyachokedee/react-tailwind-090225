@@ -5,7 +5,7 @@ import Faq from '@/components/home/Faq'
 import Hero from '@/components/home/Hero'
 import Testimonials from '@/components/home/Testimonials'
 import Video from '@/components/home/Video'
-import GotoTop from '@/components/shared/gototop'
+// import  { GotoTop } from '@/components/shared/main/GotoTop'
 import { SectionTitle } from '@/components/shared/main/SectionTitle'
 import { useEffect } from 'react'
 
@@ -77,7 +77,7 @@ export default function Home() {
         <Cta />
 
         {/* Go to Top */}
-       <GotoTop />
+       {/* <GotoTop /> */}
     </div>
   )
 }

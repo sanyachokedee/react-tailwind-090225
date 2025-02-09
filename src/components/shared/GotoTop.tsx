@@ -1,7 +1,6 @@
-import { useRef } from "react";
 
-export default function GotoTop() {
-    const ref = useRef(null);
+export  function GotoTop() {
+
     const scrollToTop = () => {
       window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     };
